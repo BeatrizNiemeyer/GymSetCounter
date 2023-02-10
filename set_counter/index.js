@@ -14,6 +14,6 @@ function save() {
     saveEl.innerHTML += countStr + "<br>"
     countEl.innerHTML = 0
     count = 0
-    exerciseName= ""
+    document.getElementById("exercise-name").value = " "
     
 }
