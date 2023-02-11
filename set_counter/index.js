@@ -10,10 +10,9 @@ function increment() {
 
 function save() {
     let exerciseName = document.getElementById("exercise-name").value
-    let countStr = exerciseName + " - " + count 
-    saveEl.innerHTML += countStr + "<br>"
+    let countStr = exerciseName + " - " + count + " sets"
+    saveEl.innerHTML +=  "<br>" + countStr
     countEl.innerHTML = 0
     count = 0
     document.getElementById("exercise-name").value = " "
-    
 }
